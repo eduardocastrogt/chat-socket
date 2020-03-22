@@ -1,0 +1,25 @@
+{
+  "name": "chat-socket",
+  "version": "1.0.0",
+  "description": "Chat realizado con Nodejs y Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardocastrogt/chat-socket.git"
+  },
+  "author": "Eduardo Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardocastrogt/chat-socket/issues"
+  },
+  "homepage": "https://github.com/eduardocastrogt/chat-socket#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
+  }
+}
