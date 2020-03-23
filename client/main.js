@@ -18,7 +18,9 @@ function render(data)
         );
     }).join(' ');
 
-    document.getElementById('message').innerHTML = html;
+    var div_mensaje = document.getElementById('message');
+    div_mensaje.innerHTML = html;
+    div_mensaje.scrollTop = div_mensaje.scrollHeight
 }
 
 function addMessage(e){
